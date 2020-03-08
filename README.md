@@ -1,27 +1,11 @@
 # PixelGame
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+This is a small web-app for an image-guessing game. You can upload a series of images by drag&drop and then generate a pixelized version of each image that progressively gets 'unpixelized'. 
 
-## Development server
+## Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This is built using [Angular](https://angular.io/), so make sure you have a recent Angular version installed. Call `npm install` from the root folder, then `ng serve` to run locally. 
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Drag&drop one or more image files into the application. Currently, only JPG and PNG files on your local machine are supported. Once loaded, you can press space to start the image-guessing game. Press space again to show the actual image without pixelization. Press space once again to proceed to the next image. 
