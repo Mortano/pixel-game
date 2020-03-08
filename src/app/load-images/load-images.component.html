@@ -1,0 +1,5 @@
+<div class="upload-file" (click)="fileInput.click()" appDragDrop (onFileDropped)="uploadFile($event)">
+  <b id="header-text" class="text">Upload images</b>
+  <i class="material-icons centered">cloud_upload</i>
+  <input hidden type="file" #fileInput (change)="uploadFile($event.target.files)">
+</div>

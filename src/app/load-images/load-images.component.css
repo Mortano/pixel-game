@@ -1,0 +1,49 @@
+.upload-file {
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    height: 200px;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px dashed #4f3b79;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+}
+
+.centered {
+    margin: auto
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 92pt;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+
+  color: #4f3b79;
+}
+
+#header-text {
+    text-align: center;
+    margin: 12pt;
+    color: #4f3b79;
+}

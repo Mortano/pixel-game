@@ -1,3 +1,9 @@
 <div id="bg">
-  <canvas id="main-canvas" #mainCanvas></canvas>
+  <div class="header text">
+    Image guessing game
+  </div>
+  <div>
+    <app-load-images id="load-images" *ngIf="!imageStorageService.hasImagesLoaded"></app-load-images>
+    <app-pixelization id="pixelization" #pixelization *ngIf="imageStorageService.hasImagesLoaded" class="flex"></app-pixelization>
+  </div>
 </div>
