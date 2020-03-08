@@ -56,7 +56,7 @@ export class ImageStorageService {
     return new Promise((resolve, reject) => {
       var reader = new FileReader();
       //TODO Handle failure
-      reader.addEventListener('load', (event) => {
+      reader.addEventListener('load', (event: any) => {
 
         const texture = new THREE.TextureLoader().load('assets/dummy.jpg', (tex) => {
           tex.image.src = event.target.result;

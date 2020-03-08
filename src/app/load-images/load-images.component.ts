@@ -25,11 +25,7 @@ export class LoadImagesComponent implements OnInit {
       };
     });
 
-    Promise.all(this.imageStorageService.loadImages(images)).then((loadedImages) => {
-      console.log('Loaded images!');
-    }, (err) => {
-      console.error(err);
-    })
+    this.imageStorageService.loadImages(images);
   }
 
 }
